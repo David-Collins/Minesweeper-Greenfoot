@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Minefield()
+comment0.text=\r\n\ Creates\ the\ minefield\ itself\r\n\ First\ creates\ the\ locations\ of\ the\ bombs,\ and\ makes\ sure\ that\ there\ are\ no\ repeated\ spaces\r\n\ Then\ runs\ through\ the\ whole\ board\ adding\ Tiles,\ and\ if\ the\ location\ is\ where\ a\ bomb\ should\ be,\ places\ a\ bomb\ there\ instead\r\n
+comment1.params=
+comment1.target=void\ checkWin()
+comment1.text=\r\n\ Checks\ for\ the\ conditions\ to\ win\ the\ game\r\n\ If\ they\ are\ true,\ then\ it\ will\ show\ the\ win\ screen\r\n\ Will\ be\ called\ by\ each\ tile\ method\ to\ see\ if\ all\ the\ tiles\ are\ showing\r\n
+numComments=2

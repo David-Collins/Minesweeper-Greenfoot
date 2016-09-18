@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Tile()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Action\ that\ takes\ place\ when\ each\ tile\ is\ clicked\r\n\ \r\n\ If\ it\ is\ left\ click,\ it\ checks\ how\ many\ bombs\ are\ surrounding\ it,\ and\ if\ there\ are\ none,\ it\ run\ the\ floodFill\ method\r\n\ \r\n\ If\ it\ is\ a\ right\ click,\ then\ it\ flags\ the\ tile,\ unallowing\ it\ to\ be\ clicked\r\n
+comment2.params=t
+comment2.target=void\ check(Tile)
+comment2.text=\r\n\ If\ there\ is\ 1\ or\ more\ bombs\ surrounding\ the\ tile,\ it\ runs\ this\ method\ to\ check\ how\ many\ bombs\ are\ surrounding\ the\ tile\ and\ sets\ the\ image\ accordingly\r\n
+comment3.params=t
+comment3.target=void\ floodFill(Tile)
+comment3.text=\r\n\ This\ is\ the\ floodFill\ method\r\n\ \r\n\ Assuming\ there\ are\ no\ surrounding\ bombs,\ it\ recursively\ checks\ all\ the\ tiles\ next\ to\ the\ tile\ clicked\ on\ to\ see\ if\ there\ is\ any\ bombs\ surrounding\ that\r\n\ one,\ and\ if\ not,\ it\ calls\ the\ floodFill\ method\ on\ the\ spot,\ and\ this\ continues\ until\ it\ finds\ a\ tile\ that\ has\ one\ or\ bombs\ next\ to\ it.\r\n
+numComments=4

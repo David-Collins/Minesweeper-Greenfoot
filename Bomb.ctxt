@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bomb()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ action\ that\ takes\ place\ when\ each\ tile\ is\ clicked\r\n\ if\ it\ is\ left\ click,\ and\ it\ is\ not\ flagged,\ it\ will\ trigger\ the\ lose\ screen\ saying\ you\ lost\r\n\ if\ it\ is\ a\ right\ click,\ then\ it\ flags\ the\ bomb,\ unallowing\ it\ to\ be\ clicked\r\n
+numComments=2

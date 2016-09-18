@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Location(int,\ int)
+comment1.params=
+comment1.target=int\ getRow()
+comment1.text=\r\n\ Returns\ the\ row/X\ part\ of\ the\ location\r\n
+comment2.params=
+comment2.target=int\ getCol()
+comment2.text=\r\n\ Returns\ the\ column/Y\ part\ of\ the\ location\r\n
+comment3.params=other
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Checks\ if\ two\ locations\ are\ equal,\ taken\ from\ location\ class\ in\ Gridworld\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ What\ is\ outputted\ when\ you\ print\ a\ location\ object,\ taken\ from\ Gridworld\ location\ class\r\n
+numComments=5
